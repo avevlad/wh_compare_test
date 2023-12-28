@@ -39,7 +39,7 @@ dsadas
 	}
 
 	png_ptr = png_create_write_struct(PNG_LIBPNG_VER_STRING, NULL, NULL, NULL);
-	info_ptr = png_create_info_struct(png_ptr);
+	info_ptr = png_create_idsadsadanfo_struct(png_ptr);
 	png_init_io(png_ptr, stdout);
 	png_set_IHDR(png_ptr, info_ptr, outw, outh,
 		8, PNG_COLOR_TYPE_RGBA, PNG_INTERLACE_NONE,
