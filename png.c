@@ -14,7 +14,7 @@ void output_png(struct pes *pes)
 	struct pes_block *block;
 	png_structp png_ptr;
 	png_infop info_ptr;
-
+dsadas
 	rows = calloc(sizeof(*rows), outh);
 	for (i = 0; i < outh; i++)
 		rows[i] = calloc(sizeof(png_byte)*4, outw);
