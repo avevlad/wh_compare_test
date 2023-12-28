@@ -7,7 +7,7 @@ void output_svg(struct pes *pes)
 	printf("<svg xmlns=\"http://www.w3.org/2000/svg\" "
 		"xlink=\"http://www.w3.org/1999/xlink\" "
 		"ev=\"http://www.w3.org/2001/xml-events\" "
-		"version=\"1.1\" "
+		"version=\"1.1\" "dsada
 		"baseProfile=\"full\" "
 		"width=\"%d\" height=\"%d\">",
 		pes->max_x - pes->min_x,
